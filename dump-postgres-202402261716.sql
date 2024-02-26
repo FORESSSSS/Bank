@@ -87,7 +87,7 @@ ALTER TABLE ONLY public.users ALTER COLUMN id SET DEFAULT nextval('public.users_
 --
 
 COPY public.flyway_schema_history (installed_rank, version, description, type, script, checksum, installed_by, installed_on, execution_time, success) FROM stdin;
-1	1	Init DB Default Data	SQL	V1__Init_DB_Default_Data.sql	-1576749870	postgres	2022-07-05 23:19:42.403306	21	t
+1	1	Init DB Default Data	SQL	V1__Init_DB_Default_Data.sql	-1576749870	postgres	2024-02-26 17:16:42.403306	21	t
 \.
 
 
