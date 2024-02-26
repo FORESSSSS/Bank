@@ -96,9 +96,9 @@ COPY public.flyway_schema_history (installed_rank, version, description, type, s
 --
 
 COPY public.users (id, balance, first_name, last_name) FROM stdin;
-1   800.00 Ivan Ivanov
-2	500.00 Ivan Petrov
-3	7000.00	Petr Ivanov
+1 800.00 Ivan Ivanov
+2 500.00 Ivan Petrov
+3 7000.00 Petr Ivanov
 
 
 --
