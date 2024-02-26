@@ -6,4 +6,4 @@
 - Метод putMoney - Пополнение баланса на заданную сумму;
 
 ### DataBase
-![DataBase.png](..%2F..%2FPictures%2FDataBase.png)
+![DataBase.png](DataBase.png)
