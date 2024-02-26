@@ -96,14 +96,9 @@ COPY public.flyway_schema_history (installed_rank, version, description, type, s
 --
 
 COPY public.users (id, balance, first_name, last_name) FROM stdin;
-2	100.00	Foo	Bar
-3	5000.00	Ivan	Petrov
-4	7000.00	Petr	Ivanov
-5	5000.00	John	Dow
-6	50000.00	Isaac	Asimov
-7	0.00	Caliban	Robot
-1	10000.00	Test	Testerov
-\.
+1   800.00 Ivan Ivanov
+2	500.00 Ivan Petrov
+3	7000.00	Petr Ivanov
 
 
 --
